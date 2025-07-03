@@ -16,8 +16,8 @@ model User {
   role     UserRole @default(USER)
   verified DateTime
 
-  privider   String?
-  prividerId String?
+  provider   String?
+  providerId String?
 
   cart             Cart?
   orders           Order[]
